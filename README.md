@@ -1,6 +1,6 @@
 # plantilla_datascience
 
-# Proyecto de Análisis de Datos — practica_io_textos
+## Proyecto de Análisis de Datos — practica_io_textos
 
 Plantilla base para proyectos de análisis de datos en **Python**, utilizando entornos virtuales y notebooks de **Jupyter / VS Code**.
 
@@ -43,18 +43,18 @@ import pandas as pd
 from pathlib import Path
 import pdfplumber
 
-# Leer CSV
+### Leer CSV
 df = pd.read_csv("data/raw/archivo.csv")
 
-# Leer TXT
+### Leer TXT
 texto = Path("data/raw/archivo.txt").read_text(encoding="utf-8")
 
-# Leer PDF
+### Leer PDF
 with pdfplumber.open("data/raw/archivo.pdf") as pdf:
     texto_pdf = pdf.pages[0].extract_text()
 
 
-# Proyecto creado por Alejandromtdev como plantilla base para análisis de datos con Python y VS Code.
+### Proyecto creado por Alejandromtdev como plantilla base para análisis de datos con Python y VS Code.
 
 📬 Contacto: alejandromtdev@gmail.com
 
