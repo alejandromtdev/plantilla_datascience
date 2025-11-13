@@ -9,7 +9,7 @@ Plantilla base para proyectos de análisis de datos en **Python**, utilizando en
 ## Configuración del entorno
 
 ### Clonar el repositorio
-```bash
+
 git clone git@github.com:alejandromtdev/plantilla_datascience.git
 cd plantilla_datascience
 
