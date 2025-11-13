@@ -1,4 +1,4 @@
-# plantilla_datascience
+# Plantilla analisis de datos
 
 ## Proyecto de Análisis de Datos — practica_io_textos
 
